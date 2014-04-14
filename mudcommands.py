@@ -1,11 +1,8 @@
 #Experiment with Git. Round 2.
 #Test file for directions.
 
-class Room:
-	def __init__(self,dir):
-		self.exit = [dir]
-	def exits(self):
-		return self.exit
+import levels
+import characters
 
 def executecommand(command, currentRoom):
 	if command == 'w':
